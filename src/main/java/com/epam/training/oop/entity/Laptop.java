@@ -29,7 +29,6 @@ public class Laptop implements Device {
     }
 
     @Override
-    @Deprecated
     public boolean equals(Object o) {
         if (this == o) return true;
 
@@ -48,7 +47,6 @@ public class Laptop implements Device {
     }
 
     @Override
-    @Deprecated
     public int hashCode() {
         return new HashCodeBuilder(17, 37)
                 .append(batteryCapacity)

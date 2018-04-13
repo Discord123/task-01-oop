@@ -28,7 +28,6 @@ public class Oven implements Device {
     }
 
     @Override
-    @Deprecated
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -42,7 +41,6 @@ public class Oven implements Device {
     }
 
     @Override
-    @Deprecated
     public int hashCode() {
         return Objects.hash(powerConsumption, weight, capacity, depth, height, width);
     }
